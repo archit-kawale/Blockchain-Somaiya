@@ -5,6 +5,17 @@ public class BlockChain {
     
     public BlockChain(){
         blockchain = new ArrayList<Block>();
-        
-}
+    }
+
+    public void add(Block b){
+        blockchain.add(b);
+    }
+
+    public int getSize() {
+        return blockchain.size();
+    }
+
+    public ArrayList<Block> getAllBlock(){
+        return blockchain;
+    }
 }

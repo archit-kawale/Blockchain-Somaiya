@@ -17,4 +17,46 @@ public class Block {
 
         this.hash = Hash.generateHash(d);
     }
+
+    public String getHash(){
+        return hash;
+    }
+    
+    public String getTransaction(){
+        return transaction;
+    }
+
+    public String getPreviousHash(){
+        return previousHash;
+    }
+
+    public long getTimeStamp(){
+        return timeStamp;
+    }
+
+    public void setHash(String h){
+        hash = h;
+    }
+
+    public void setTransaction(String trans){
+        transaction = trans;
+    }
+
+    public void setPreviousHash(String ph){
+        previousHash = ph;
+    }
+
+    public void setTimeStamp(long tp){
+        timeStamp = tp;
+    }
+
+    public int incrementNonce(){
+        return nonce++;
+    }
+
+    @Override
+    public String toString(){
+        return this.hash+"-"+this.previousHash+"-"+this.id+"-"+this.timeStamp;
+    }
+
 }
