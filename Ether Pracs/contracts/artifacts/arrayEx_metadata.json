@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "initializeArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/secondContract.sol": "arrayEx"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/secondContract.sol": {
+			"keccak256": "0x476c699eb0a1dc37be4e63e1de795171140bb96cd760ca4e417c83925e299b09",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bef662a144b469cba7a420b42d88ae9fecfc9ac5d18c9fb5164a84f66f332e56",
+				"dweb:/ipfs/QmSGt1188LZLzY8mNjaLTyt4XpfqRxmLw2PNh7oN6GoVJt"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "logme",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "m",
+						"type": "string"
+					}
+				],
+				"name": "logFunc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/logs.sol": "eventEg"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/logs.sol": {
+			"keccak256": "0x672a445c51cc3454541e2290ddd1a1173b9d479ec1f2011727e794d3308a8878",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9980a9604e9b0db9754c95759a7d940ac9d42798b1a5a0c938457ebc06363d5c",
+				"dweb:/ipfs/QmZNrjGVERjTRbM68AN6uWUHDsbVzoNgpLqGPaRmBwkVpS"
+			]
+		}
+	},
+	"version": 1
+}
