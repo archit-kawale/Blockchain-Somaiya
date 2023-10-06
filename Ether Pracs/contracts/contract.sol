@@ -11,7 +11,7 @@ contract helloWorld {
         return uid*uid;
     }
     constructor() {
-        message = "FarzanIsIntoGods";
+        message = "FarzanIsGreat";
         owner = msg.sender;
     }
     address public owner;
